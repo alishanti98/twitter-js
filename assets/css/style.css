@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 20px;
+	-webkit-box-shadow: 0px 1px 13px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 13px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 13px -1px rgba(0,0,0,0.75)
+}
+
+
+header .header-logo i{
+	color:rgb(29,161,242);
+	font-size: 35px;
+}
+
+header .header-title{
+	font-weight: bold;
+	font-size: 25px;
+	color:#444;
+	wid
+}
+
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-content{
+	width: 700px;
+	padding-top: 100px;
+}
+
+.title{
+	padding: 20px 10px;
+	border-bottom: 1px solid gray;
+	display: flex;
+	align-items: center;
+}
+
+.title .title-name{
+	flex:1;
+}
+
+.title .title-name span{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.title .title-icon{
+	font-size: 20px;
+	color: rgb(29,161,242);
+}
+
+.write-space {
+	padding: 20px 10px;
+}
+
+.write-space  input{
+	display: block;
+	width: 100%;
+	border: none;
+	outline: none;
+	margin-bottom: 30px;
+	border-bottom: 2px solid rgb(29,161,242);
+	padding: 10px;
+	font-size: 20px;
+}
+
+.write-space .button-container{
+	text-align: right;
+}
+
+.write-space .button-container button{
+	padding: 15px 50px;
+	background: rgb(29,161,242);
+	color: #fff;
+	outline: none;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.write-space .button-container button:hover{
+	transform: scale(1.1);
+	transition: all 0.5s ease;
+}
+
+hr{
+	height: 10px;
+    background: #ede7e7;
+    border: none;
+}
+
+
+.tweet{
+	padding: 10px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px; 
+}
+.username {
+    font-size: 25px;
+    font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.tweet-contents {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.tweet-buttons i{
+    display:inline-block;
+    margin-right:20px;
+    color:#2e2a2a;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.8s ease;
+}
+
+.tweet-buttons i.fa-heart:hover{
+    background: rgba(255,0,0,0.3);
+    color: red;
+    transition: all 0.8s ease;
+}
+
+.tweet-buttons i.fa-redo:hover{
+    background: rgba(0,255,0,0.3);
+    color: green;
+    transition: all 0.8s ease;
+}
+
+.tweet-buttons i.fas.fa-heart{
+	color: red;
+	color: rgb(red, green, blue);
+}
